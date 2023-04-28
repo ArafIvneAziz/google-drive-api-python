@@ -18,5 +18,5 @@ def generate_direct_download_link(file_id):
     return file['webContentLink'].replace('view', 'uc')
 
 # Usage example
-link = generate_direct_download_link('14bVqz0FpiF5LPiYFtvlC6lwchQaeJDnt')
+link = generate_direct_download_link('your-file-id-which-you-want-to-install')
 print(link)
